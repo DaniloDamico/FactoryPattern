@@ -12,6 +12,11 @@ public class Coal implements MineProduct{
         // stub
     }
 
+    @Override
+    public void appreciate() {
+        //stub
+    }
+
     public void burn() {
         // stub
     }

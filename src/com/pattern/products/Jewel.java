@@ -12,6 +12,11 @@ public class Jewel implements MineProduct{
         // stub
     }
 
+    @Override
+    public void appreciate() {
+        //stub
+    }
+
     public void mount() {
         // stub
     }

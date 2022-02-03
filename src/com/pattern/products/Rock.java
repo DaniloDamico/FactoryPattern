@@ -11,6 +11,11 @@ public class Rock implements MineProduct{
         // stub
     }
 
+    @Override
+    public void appreciate() {
+        //stub
+    }
+
     private void leave(){
         // stub
     }

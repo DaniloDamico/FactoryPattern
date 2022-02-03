@@ -4,4 +4,6 @@ public interface MineProduct {
     void use();
 
     void throwAway();
+
+    void appreciate();
 }
