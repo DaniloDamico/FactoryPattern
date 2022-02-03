@@ -5,13 +5,9 @@ import com.pattern.products.Jewel;
 import com.pattern.products.MineProduct;
 import com.pattern.products.ProductType;
 
-public class Miner { // Client Class
-
+public class Miner {
     private MineProduct jewel;
     private MineProduct coal;
-
-    private Jewel properJewel;
-    private Coal properCoal;
 
     public void client() {
         Mine mine = new Mine();
@@ -19,8 +15,6 @@ public class Miner { // Client Class
         this.jewel = mine.createProduct(ProductType.JEWEL);
         this.coal = mine.createProduct(ProductType.COAL);
 
-        this.properJewel = mine.createJewel();
-        this.properCoal = mine.createCoal();
     }
 
     public static void main (String[] args){
@@ -28,9 +22,6 @@ public class Miner { // Client Class
 
         miner.jewel.use();
         miner.coal.use();
-
-        miner.properCoal.burn();
-        miner.properJewel.mount();
 
     }
 }

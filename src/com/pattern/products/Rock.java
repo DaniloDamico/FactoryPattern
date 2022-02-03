@@ -1,10 +1,9 @@
 package com.pattern.products;
 
-public class Coal implements MineProduct{
-
+public class Rock implements MineProduct{
     @Override
     public void use() {
-        burn();
+        leave();
     }
 
     @Override
@@ -12,7 +11,7 @@ public class Coal implements MineProduct{
         // stub
     }
 
-    public void burn() {
+    private void leave(){
         // stub
     }
 }
