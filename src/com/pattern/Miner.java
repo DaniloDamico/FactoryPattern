@@ -9,7 +9,7 @@ public class Miner {
     private MineProduct jewel;
     private MineProduct coal;
 
-    public void client() {
+    public Miner() {
         Mine mine = new Mine();
 
         this.jewel = mine.createProduct(ProductType.JEWEL);
