@@ -13,7 +13,7 @@ public class Miner { // Client Class
     private Jewel properJewel;
     private Coal properCoal;
 
-    public void Client() {
+    public void client() {
         Mine mine = new Mine();
 
         this.jewel = mine.createProduct(ProductType.JEWEL);
@@ -23,7 +23,7 @@ public class Miner { // Client Class
         this.properCoal = mine.createCoal();
     }
 
-    public static void main (String args[]){
+    public static void main (String[] args){
         Miner miner = new Miner();
 
         miner.jewel.use();

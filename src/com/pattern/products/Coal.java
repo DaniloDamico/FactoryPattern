@@ -8,5 +8,6 @@ public class Coal implements MineProduct{
     }
 
     public void burn() {
+        // stub
     }
 }
